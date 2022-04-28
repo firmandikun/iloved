@@ -57,7 +57,7 @@
 }
 
 .card-why {
-    height: 230px;
+    height: 200px;
     background: #FEFEFE;
     mix-blend-mode: normal;
     border: 1px solid #E6E6E6;
@@ -110,6 +110,12 @@ border-radius: 8px;
 }
 /* responsice */
 
+@media only screen and (max-width: 1200px) {
+    .card-why {
+        height: 250px;
+    padding-top: 0px;
+    }
+  }
 @media only screen and (max-width: 769px) {
     .card-why {
         width: 100%;
