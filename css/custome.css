@@ -57,12 +57,14 @@
 }
 
 .card-why {
-    height: 150px;
+    height: 230px;
     background: #FEFEFE;
     mix-blend-mode: normal;
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
     border-radius: 20px;
+    display: flex;
+    padding-top: 25px;
 }
 .card-keuntungan {
     background: #FEFEFE;
@@ -112,6 +114,8 @@ border-radius: 8px;
     .card-why {
         width: 100%;
         height: 100%;
+
+    padding-top: 0px;
     }
     .card-popular {
         margin-top: 20px;
