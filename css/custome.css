@@ -53,6 +53,7 @@
 /* custome other */
 .nav-link.active {
     color: #FF6F43 !important;
+    font-weight: 800 !important;
 }
 
 .card-why {
