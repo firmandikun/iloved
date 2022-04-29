@@ -93,6 +93,7 @@ border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
+    width: 370px;
 }
 
 .card-header {
@@ -106,6 +107,10 @@ border-radius: 8px;
 }
 
 .text-footer {
+    color: #FEFEFE;
+    font-size: 16px;
+}
+.color-footer {
     color: #FEFEFE;
 }
 /* responsice */
@@ -122,6 +127,9 @@ border-radius: 8px;
         height: 100%;
 
     padding-top: 0px;
+    }
+    .card-feature  {
+        width: 100%;
     }
     .card-popular {
         margin-top: 20px;
